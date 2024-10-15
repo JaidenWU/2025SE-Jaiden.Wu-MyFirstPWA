@@ -5,5 +5,5 @@
 --INSERT INTO extension(extID,name,hyperlink,about,image,language) VALUES (3,'Render CR LF','https://marketplace.visualstudio.com/items?itemName=medo64.render-crlf','Displays the line ending symbol and optionally extra whitespace when "Render whitespace" is turned on.','https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default','#BASH');
 --INSERT INTO extension(extID,name,hyperlink,about,image,language) VALUES (4,'Start GIT BASH','https://marketplace.visualstudio.com/items?itemName=McCarter.start-git-bash','Adds a bash command to VSCode that allows you to start git-bash in the current workspace"s root folder.','https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default','#BASH');
 
-SELECT * FROM extension;
-SELECT * FROM extension WHERE language LIKE '#BASH';
+--SELECT * FROM extension;
+--SELECT * FROM extension WHERE language LIKE '#BASH';
