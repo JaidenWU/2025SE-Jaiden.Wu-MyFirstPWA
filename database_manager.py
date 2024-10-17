@@ -1,7 +1,6 @@
 import sqlite3 as sql
 
 def listExtension():
-    #con = sql.connect("databaseFiles/database.db") copy and paste shit
     con = sql.connect(".database/data_source.db")
     cur = con.cursor()
     data = cur.execute('SELECT * FROM extension').fetchall()
