@@ -23,6 +23,9 @@
   {% if is_done %}
     <p class="success-message">{{"Thank you for joining!"}}</p>
   {% endif %}
+  {% if error %}
+    <p class="error-message">{{"Email already submitted"}}</p>
+  {% endif %}
 </form>
 
 
