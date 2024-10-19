@@ -16,6 +16,9 @@ def add():
    if request.method=='POST':
       email = request.form['email']
       name = request.form['name']
+      existingEmail = dbHandler.getEmail(email)
+      if existingEmail:
+         return render_template('add.html')      
       dbHandler.insertContact(email,name)
       return render_template('/add.html', is_done=True)
    else:

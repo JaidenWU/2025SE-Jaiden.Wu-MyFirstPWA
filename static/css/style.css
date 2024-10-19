@@ -125,3 +125,31 @@ nav h1 {
   text-justify: inter-word;
 }
 
+.form-label {
+  font-size: 18px;
+  margin-bottom: 15px;
+  display: block;
+}
+
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+.box {
+  margin-top: 15px;
+}
+
+h1 {
+  margin-bottom: 35px;
+}
+
+.success-message{
+  color: green;
+  font-weight: bold;
+  font-size: 30px;
+  margin-top: 20px;
+}
